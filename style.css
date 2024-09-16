@@ -76,3 +76,9 @@ header {
     color: var(--main-color);
     display: none;
 }
+
+/* Home section styling */
+section {
+    min-height: 100vh;
+    
+}
