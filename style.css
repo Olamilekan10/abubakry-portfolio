@@ -339,8 +339,37 @@ span {
     text-align: right;
 }
 
+.timeline-item:nth-child(even) {
+    padding-left: calc(50% + 30px);
+}
+
 .timeline-dot {
     height: 21px;
     width: 21px;
+    background-color: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color),
+                0 0 50px var(--main-color);
+    position: absolute;
+    left: calc(50% - 8px);
+    border-radius: 50%;
+    top: 10px;
 }
+
+.timeline-date {
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    margin: 6px 0 15px;
+}
+
+.timeline-content {
+    background-color: var(--bg-color);
+    border: 3px solid var(--main-color);
+    padding: 30px 50px;
+    border-radius: 4rem;
+    box-shadow: 0 0 10px var(--main-color);
+    cursor: pointer;
+}
+
+
 
