@@ -514,4 +514,21 @@ span {
 
 .testimonial-item:hover {
     border: 3px solid var(--main-color);
+    transform: translateY(-10px)scale(1.03);
+    box-shadow: 0 0 50px var(--main-color);
 }
+
+.testimonial-item h2 {
+    font-size: 2.8rem;
+}
+
+.testimonial-item p {
+    font-size: 1.3rem;
+}
+
+#star {
+    color: gold;
+    font-size: 1.7rem;
+}
+
+/* Contact section styling */
