@@ -638,3 +638,13 @@ span {
     font-size: 14px;
     color: #fff;
 }
+@media (max-width: 1285) {
+    html {
+        font-size: 55%;
+    }
+    .services-container {
+        padding-bottom: 7rem;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 5rem;
+    }
+}
