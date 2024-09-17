@@ -404,3 +404,12 @@ span {
     width: 50px;
 }
 
+.services {
+    background: var(--bg-color);
+    color: #000;
+}
+
+.services h2 {
+    margin-bottom: 5rem;
+    color: #fff;
+}
