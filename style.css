@@ -128,6 +128,7 @@ span {
     position: relative;
     top: 3rem;
     width: 30vw;
+    height: 30vw;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
@@ -479,7 +480,8 @@ span {
 }
 
 .testimonials-box img {
-    width: 15rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     border: 3px solid var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
@@ -489,4 +491,27 @@ span {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 3rem;
+}
+
+.testimonial-item {
+    min-height: 450px;
+    max-width: 450px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 3px solid rgba(238, 238, 238, 0.2);
+    border-radius: 3rem;
+    margin: 0 2rem;
+    padding: 30px 60px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+
+.testimonial-item:hover {
+    border: 3px solid var(--main-color);
 }
