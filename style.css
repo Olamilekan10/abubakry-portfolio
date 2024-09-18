@@ -735,3 +735,23 @@ span {
         grid-template-columns: repeat(1,1fr);
     }
 }
+@media (max-width: 600px) {
+    
+    .home-content h1 {
+        font-size: 4rem;
+    }
+    .contact .heading,
+    .testimonials .heading,
+    .services .heading,
+    .education .heading {
+        font-size: 4rem;
+    }
+    .service-box {
+        height: 350px;
+    }
+    .service-info p {
+        font-size: 1.3rem;
+    }
+
+}
+
