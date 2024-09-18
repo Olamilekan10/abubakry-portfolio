@@ -659,6 +659,32 @@ span {
         left: 7px;
     }
     .timeline-item:nth-child(odd) {
-        padding-right: 9rem;
+        padding-right: 0;
+        text-align: left;
+    }
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 37px;
+    }
+    .timeline-dot {
+        left: 0;
+    }
+    .services {
+        padding-bottom: 7rem;
+    }
+    .testimonials .wrapper {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .contact form {
+        flex-direction: column;
+    }
+    .footer {
+        padding: 2rem 3%;
+    }
+}
+
+@media (max-width: 895px) {
+    #menu-icon {
+        display: block;
     }
 }
