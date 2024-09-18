@@ -724,5 +724,14 @@ span {
         max-width: 600px;
         margin: 0 auto;
     }
-    
+    .home-img img {
+        width: 56vw;
+        height: 56vw;
+    }
+    .services h2 {
+        margin-bottom: 3rem;
+    }
+    .services-container {
+        grid-template-columns: repeat(1,1fr);
+    }
 }
