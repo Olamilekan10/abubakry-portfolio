@@ -449,13 +449,13 @@ span {
 }
 
 .service-info h4 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 800;
     line-height: 2;
 }
 
 .service-info p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 600;
     max-height: 100px;
     line-height: 1.7;
