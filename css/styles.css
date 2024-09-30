@@ -2981,6 +2981,9 @@ img.u-pull-left {
     padding     : 0 .4rem;
     margin-left : 2.4rem;
 }
+.form-group .btn a:hover {
+    color: #000;
+}
 
 .main-nav {
     padding : 0;
