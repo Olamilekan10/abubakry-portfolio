@@ -2956,6 +2956,15 @@ img.u-pull-left {
     transition-property : color, background-color;
 }
 
+.main-nav .home-link b {
+    color: gold;
+    font-weight: bolder;
+}
+
+.main-nav .home-link b:hover {
+    color: #fff;
+}
+
 .mobile-home-link a:focus,
 .mobile-home-link a:hover,
 .main-nav a:focus,
