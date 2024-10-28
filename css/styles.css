@@ -246,7 +246,7 @@
     --text-xl          : calc(var(--text-lg) * var(--text-scale-ratio));
     --text-xxl         : calc(var(--text-xl) * var(--text-scale-ratio));
     --text-xxxl        : calc(var(--text-xxl) * var(--text-scale-ratio));
-    --text-display-1   : calc(var(--text-xxxl) * var(--text-scale-ratio));
+    --text-display-1   : calc(var(--text-xl) * var(--text-scale-ratio));
     --text-display-2   : calc(var(--text-display-1) * var(--text-scale-ratio));
     --text-display-3   : calc(var(--text-display-2) * var(--text-scale-ratio));
 
@@ -326,7 +326,7 @@ main {
 }
 
 h1 {
-    font-size : 2em;
+    font-size : 1.8em;
     margin    : 0.67em 0;
 }
 
@@ -2686,7 +2686,7 @@ img.u-pull-left {
 }
 
 .text-huge-title {
-    --text-huge : 8rem;
+    --text-huge : 6rem;
     font-size   : var(--text-huge);
     line-height : 1.0740;
     margin-top  : 0;
@@ -4098,9 +4098,9 @@ img.u-pull-left {
     padding-left : 0;
 }
 
-.contact-social li::after {
+/* .contact-social li::after {
     content : ",  ";
-}
+} */
 
 .contact-social li:last-child::after {
     display : none;
